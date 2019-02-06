@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const multer = require('multer');
+const doctor = require('../controllers/hvacdoctor');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -9,19 +10,21 @@ router.get('/', function(req, res, next) {
 
 var upload = multer({ storage: storage })
 
-router.post('/upload', upload.single('resultfile'),(req,res,next) => {
+
+router.post('/upload', upload.single('HVACresultfile'),(req,res,next) => {
   const file = req.file
   if (!file) {
     const error = new Error('Please upload a file')
     error.httpStatusCode = 400
     return next (error)
   }
+  console.log(file.fieldname);
   res.send(file)
 })
 
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, 'uploads')
+    cb(null, './uploads')
   },
   filename: function (req, file, cb) {
     cb(null, file.fieldname + '-' + Date.now())
