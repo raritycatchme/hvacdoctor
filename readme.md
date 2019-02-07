@@ -4,7 +4,7 @@
 
 HVAC Doctor is a program that will take reports from your ecobee thermostat (downloaded through your account at ecobee.com) and assess what could be happening with it (as we would)
 
-Right now these docs are mainly a to do list 
+Right now these docs are mainly a to do list - the functionality is very much in progress. (as of Feb 7 2019)
 
 <ol>
   <h6>1. Function calculations (how do we determine what is what in reports?) </h6>
