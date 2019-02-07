@@ -10,5 +10,5 @@ Right now these docs are mainly a to do list
     <li>Overheating HVAC. </li>
     <li>Sensors not reporting. </li>
     <li>Wall drafts </li> 
-    <li>Heat failing </li>
+    <li>Heat failing (HVAC or ecobee indeterminable here) </li>
   </ol>
