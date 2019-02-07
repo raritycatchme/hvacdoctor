@@ -7,8 +7,8 @@ Right now these docs are mainly a to do list
 
 1) Function calculations (how do we determine what is what in reports?)
 <ol>
-  <li>a) Overheating HVAC. </li>
-  <li>b) Sensors not reporting. </li>
-  <li>c) Wall drafts </li> 
-  <li>d) Heat failing </li>
+  <li>Overheating HVAC. </li>
+  <li>Sensors not reporting. </li>
+  <li>Wall drafts </li> 
+  <li>Heat failing </li>
 </ul>
