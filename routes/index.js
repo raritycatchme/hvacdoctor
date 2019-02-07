@@ -14,7 +14,7 @@ const storage = multer.diskStorage({
     cb(null,'uploads')
   },
   filename: function (req,file,cb) {
-    cb(null,'HVACresultfile' + Date.now() + '.' + mime.extension(file.mimetype))
+    cb(null,'HVACresultfile' + Date.now() + '.' + 'csv');
   }
 })
 
@@ -41,7 +41,7 @@ router.post('/upload', upload.single('HVACresultfile.csv'),(req,res,next) => {
     return next (error)
   }
 
-  console.log(file.name)
+  console.log(file)
   res.send(file)
 })
 
