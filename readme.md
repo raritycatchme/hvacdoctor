@@ -10,9 +10,10 @@ Right now these docs are mainly a to do list
   <h6>1. Function calculations (how do we determine what is what in reports?) </h6>
     <ol>
       <li>Overheating HVAC. </li>
-      <li>Sensors not reporting. </li>
+      <li>Sensors not reporting temperature. </li>
       <li>Wall drafts </li> 
-      <li>Heat failing (HVAC or ecobee indeterminable here) </li>
+      <li>Heat failing (HVAC equipment or ecobee being the cause is indeterminable based on the reports here.) </li>
+      <li>Code Blacks (probably cannot always be caught in reports) </li> 
     </ol>
    <h6>2. Things you should confirm (based on results) 
    <h6>3. Spreadsheet formatting choices (based on what was encouraged in lunch and learns) </h6> 
