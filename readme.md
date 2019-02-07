@@ -33,6 +33,15 @@ Any and all improvement to the program is encouraged - just submit a pull reques
     
    <h6>6. Deployment Information </h6>  
 
-   <h6>7. Dependancies </h6>
-   
+   <h6>7. Notes on Dependancies </h6>
+
+Javascript has been for awhile a complete ecosystem in itself. Some languages may be considered better for parsing data , but I liked the idea of having JS on both the front and back end for simplicities sake.
+
+I settled on using Node.JS & express with pug. I have added some other notes for my more specfic needs. 
+
+ "exceljs": "^1.7.0": Excel.js was chosen to convert the excel file based on the written functions. It was picked for the reporting as the documentation seemed quite complete and able to accomplish what I need. 
+
+ "multer": "^1.4.1": Multer was chosen for its simple syntax and complete documentation as well as overwhelming popularity. 
+
+
 </ol>
