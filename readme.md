@@ -5,10 +5,10 @@
 Right now these docs are mainly a to do list 
 
 
-1) Function calculations (how do we determine what is what in reports?)
-<ol>
-  <li>Overheating HVAC. </li>
-  <li>Sensors not reporting. </li>
-  <li>Wall drafts </li> 
-  <li>Heat failing </li>
-</ul>
+<ol> Function calculations (how do we determine what is what in reports?)
+  <ol>
+    <li>Overheating HVAC. </li>
+    <li>Sensors not reporting. </li>
+    <li>Wall drafts </li> 
+    <li>Heat failing </li>
+  </ol>
