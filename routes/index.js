@@ -2,23 +2,31 @@ var express = require('express');
 var router = express.Router();
 const multer = require('multer');
 const doctor = require('../controllers/hvacdoctor');
-
+var path = require('path');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'HVAC Doctor' });
 });
 
-var upload = multer({ dest: 'uploads' })
 
-var storage = multer.diskStorage({
+const storage = multer.diskStorage({
   destination: function (req,file,cb) {
     cb(null,'uploads')
   },
   filename: function (req,file,cb) {
-    cb(null,file.fieldname)
+    cb(null,'HVACresultfile' + Date.now() + '.' + mime.extension(file.mimetype))
   }
 })
 
+var upload = multer({ storage:storage})
+/* defined storage , so var upload could use it , defined var upload so router.post could use it.
+This is critical for defining scope*/
+function fileFilter (req,file,cb) {
+  if (file.mimetype != 'text/csv') {
+    console.log('You must upload CSV files.')
+    cb(null,false)
+  }
+}
 
 router.post('/upload', upload.single('HVACresultfile.csv'),(req,res,next) => {
   const file = req.file
@@ -38,3 +46,4 @@ router.post('/upload', upload.single('HVACresultfile.csv'),(req,res,next) => {
 })
 
 module.exports = router;
+
