@@ -10,11 +10,15 @@ Right now these docs are mainly a to do list
   <h6>1. Function calculations (how do we determine what is what in reports?) </h6>
     <ol>
       <li>Overheating HVAC. </li>
+        Create a restart count , blank spaces with a higher temp after a lower initial temperature are +1 to a count out of total restarts , used to indicate confidence in the answer barring customer observations (i.e confirming the ecobee actually turns off , it is not wifi etc) really all restarts can be counted then sorted based on circumstances.
       <li>Sensors not reporting temperature. </li>
+Blank space where temperature reporting should be. 
       <li>Wall drafts </li> 
       <li>Heat failing (HVAC equipment or ecobee being the cause is indeterminable based on the reports here.) </li>
+Temperature does not go up during heat calls , small restarts might be an issue as well (check fan/heat stage runtimes and see if they're strange) 
       <li>Code Blacks (probably cannot always be caught in reports) </li> 
-    </ol>
+Erratic thermostat temperatures (especially climbing temperatures) 
+</ol>
    <h6>2. Things you should confirm (based on results) 
    <h6>3. Spreadsheet formatting choices (based on what was encouraged in lunch and learns) </h6> 
    
