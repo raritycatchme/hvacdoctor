@@ -16,8 +16,10 @@ Right now these docs are mainly a to do list
     </ol>
    <h6>2. Things you should look for as a customer (based on results) 
    <h6>3. Spreadsheet formatting choices (based on what was encouraged in lunch and learns) </h6> 
-   <h6>4. Running HVAC doctor locally </h6>    
-
+   
+   <h6>4. Running HVAC doctor locally </h6>
+You can git clone on your terminal and then run NPM start in the project root folder.    
+   
    <h6>5. Contributing </h6> 
 
 My development process follows the Gitflow workflow outline(link with details here : https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) 
