@@ -17,6 +17,13 @@ Right now these docs are mainly a to do list
    <h6>2. Things you should look for as a customer (based on results) 
    <h6>3. Spreadsheet formatting choices (based on what was encouraged in lunch and learns) </h6> 
    <h6>4. Running HVAC doctor locally </h6>    
-   <h6>5. Contributing </h6>
-   <h6>6. Deployment Information </h6>    
+
+   <h6>5. Contributing </h6> 
+
+My development process follows the Gitflow workflow outline(link with details here : https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) 
+
+Any and all improvement to the program is encouraged - just submit a pull request with changes for review and I will assess if that is the best course of action. If you see a bug , please create an issue on Github with a test to show how it fails (or send the test with the fix) . I will fix it (to the best of my ability) or integrate your changes.
+    
+   <h6>6. Deployment Information </h6>  
+   
 </ol>
