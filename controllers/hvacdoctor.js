@@ -22,14 +22,24 @@ console.log('hvac doctor loads')
 //     });
 
 
-var stream = fs.createReadStream("uploads/HVACresultfile.csv");
+const uploadStream = fs.createReadStream("uploads/uploadedFile.csv");
 
-var csvStream = csv(stream)
-    .on("data", function(data){
-         console.log(data + "reads data");
-    })
-    .on("end", function(){
-         console.log("done");
+const readFile = (uploadStream) => {
+    var workbook = new Excel.Workbook();
+    workbook.csv.read(uploadStream)
+    .then(function(worksheet) {
+        console.log('reads')
     });
+}
 
-stream.pipe(csvStream);
+readFile(uploadStream)
+
+// const writeFile = (uploadStream) => {
+//     var workbook = createAndFillWorkbook(uploadStream);
+//     workbook.csv.writeFile('diagnosis.csv')
+//         .then(function() {
+//             console.log('writes but is it with data ?')
+//         });}
+
+
+// writeFile(uploadStream)
