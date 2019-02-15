@@ -30,7 +30,9 @@ Erratic thermostat temperatures (especially climbing temperatures)
   <li>Wall drafts </li> 
         
   <li>Heat failing (HVAC equipment or ecobee being the cause is indeterminable based on the reports here.) </li>
-       Dry contact reflects the same issue.Wiring is correct.Test Equipment assuming terminal failure on thermostat.
+       Dry contact reflects the same issue.
+       Wiring is correct.
+       Test Equipment assuming terminal failure on thermostat.
    <li>Overheating thermostats (probably cannot always be caught in reports) </li> 
        Smoke and/or burn marks around or on the thermostat
       
