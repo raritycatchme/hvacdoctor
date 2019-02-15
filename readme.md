@@ -14,6 +14,7 @@ Right now these docs are mainly a to do list - the functionality is very much in
       <li>Sensors not reporting temperature. </li>
 Blank space where temperature reporting should be. 
       <li>Wall drafts </li> 
+      Variances in humidity tremperature or both.
       <li>Heat failing (HVAC equipment or ecobee being the cause is indeterminable based on the reports here.) </li>
 Temperature does not go up during heat calls , small restarts might be an issue as well (check fan/heat stage runtimes and see if they're strange) 
       <li>Code Blacks (probably cannot always be caught in reports) </li> 
