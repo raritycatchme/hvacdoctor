@@ -2,7 +2,7 @@
 
 <H5>An unoffical project for ecobee by Jason Harder </h6> 
 
-HVAC Doctor is a program that will take reports from your ecobee thermostat (downloaded through your account at ecobee.com) and assess what could be happening with it (as we would)
+HVAC Doctor is a program that will take reports from an ecobee thermostat (downloaded through your account at ecobee.com) and assess what could be happening with it (as we would)
 
 Right now these docs are mainly a to do list - the functionality is very much in progress. (as of Feb 7 2019)
 
@@ -60,5 +60,9 @@ I settled on using Node.JS & express with pug. I have added some other notes for
 
  "multer": "^1.4.1": Multer was chosen for its simple syntax and complete documentation as well as overwhelming popularity. 
 
+ <h6>8. Project Updates (of course you can see the commit history as well) </h6>
+0.1 Closed initial readfile feature branch -> Multer pulls file and adds it to an upload folder
+0.2  
+0.3
 
 </ol>
