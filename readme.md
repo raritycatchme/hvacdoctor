@@ -14,13 +14,27 @@ Right now these docs are mainly a to do list - the functionality is very much in
       <li>Sensors not reporting temperature. </li>
 Blank space where temperature reporting should be. 
       <li>Wall drafts </li> 
-      Variances in humidity tremperature or both.
+      Variances in humidity temperature or both that are not consistant.
       <li>Heat failing (HVAC equipment or ecobee being the cause is indeterminable based on the reports here.) </li>
-Temperature does not go up during heat calls , small restarts might be an issue as well (check fan/heat stage runtimes and see if they're strange) 
+Temperature does not go up during heat calls , small restarts might be an issue as well (check fan/heat stage runtimes and see if they're strange)
       <li>Code Blacks (probably cannot always be caught in reports) </li> 
 Erratic thermostat temperatures (especially climbing temperatures) 
+      <li> heat not stopping (possible fused w) </li> 
 </ol>
-   <h6>2. Things you should confirm (based on results) 
+   <h6>2. Things you should confirm (based on results) </h6>
+ <ol>
+      <li>Overheating HVAC. </li>
+      
+<li>Sensors not reporting temperature. </li>
+
+  <li>Wall drafts </li> 
+        
+  <li>Heat failing (HVAC equipment or ecobee being the cause is indeterminable based on the reports here.) </li>
+       Dry contact reflects the same issue.Wiring is correct.Test Equipment assuming terminal failure on thermostat.
+   <li>Overheating thermostats (probably cannot always be caught in reports) </li> 
+       Smoke and/or burn marks around or on the thermostat
+      
+</ol>
    <h6>3. Spreadsheet formatting choices (based on what was encouraged in lunch and learns) </h6> 
    
    <h6>4. Running HVAC doctor locally </h6>
