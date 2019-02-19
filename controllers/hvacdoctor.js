@@ -34,12 +34,12 @@ const readFile = (uploadStream) => {
 
 readFile(uploadStream)
 
-// const writeFile = (uploadStream) => {
-//     var workbook = createAndFillWorkbook(uploadStream);
-//     workbook.csv.writeFile('diagnosis.csv')
-//         .then(function() {
-//             console.log('writes but is it with data ?')
-//         });}
+const writeFile = (uploadStream) => {
+    var workbook = createAndFillWorkbook(uploadStream);
+    workbook.csv.writeFile('diagnosis.csv')
+        .then(function() {
+            console.log('writes but is it with data ?')
+        });}
 
 
 // writeFile(uploadStream)
