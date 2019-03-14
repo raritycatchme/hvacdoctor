@@ -14,7 +14,7 @@ const storage = multer.diskStorage({
     cb(null,'uploads')
   },
   filename: function (req,file,cb) {
-    cb(null,'HVACresultfile' + Date.now() + '.' + 'csv');
+    cb(null,'HVACresultfile' + '.' + 'csv');
   }
 })
 
