@@ -22,15 +22,8 @@ function readFile (myworkbook) {
         }}
     )
 
-writeFile(myworkbook)
 }
 
-function writeFile (myworkbook) {
-    workbook.xlsx.writeFile('uploads/wutwut2')
-        .then(function() {
-            console.log('written as xlsx')
-        });
-    }
 
 
 
