@@ -21,6 +21,7 @@ const storage = multer.diskStorage({
 var upload = multer({ storage:storage})
 /* defined storage , so var upload could use it , defined var upload so router.post could use it.
 This is critical for defining scope*/
+
 function fileFilter (req,file,cb) {
   if (file.mimetype != 'text/csv') {
     console.log('You must upload CSV files.')
