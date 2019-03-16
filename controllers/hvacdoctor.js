@@ -13,35 +13,24 @@ var myworkbook = workbook.csv.readFile('uploads/HVACresultfile.csv')
 var worksheet = workbook.getWorksheet('uploads/HVACresultfile.csv')
 
 function readFile (myworkbook) {
-    console.log('reads')
-    console.log(`${myworkbook}`)
-
     myworkbook.then(function(result){
         try {
-            writeFile(myworkbook)
-            console.log('tried')
-
+            workbook.csv.writeFile('uploads/wutwutpromise.xlsx')
+            console.log('Look in uploads/wutwutpromise')
         } catch(err){
             console.log(err)
         }}
     )
 
+writeFile(myworkbook)
 }
 
-
-    // var promise1 = new Promise(function(resolve, reject) {
-    //     setTimeout(function() {
-    //       resolve('foo');
-    //     }, 300);
-    //   });
-
-    //   promise1.then(function(value) {
-    //     console.log(value);
-    //     // expected output: "foo"
-    //   });
-
-    //   console.log(promise1);
-    //   // expected output: [object Promise]
+function writeFile (myworkbook) {
+    workbook.xlsx.writeFile('uploads/wutwut2')
+        .then(function() {
+            console.log('written as xlsx')
+        });
+    }
 
 
 
