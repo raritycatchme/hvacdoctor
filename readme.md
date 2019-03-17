@@ -1,6 +1,6 @@
 <h1>HVAC doctor</h1>
 
-<H5>An unoffical project for ecobee by Jason Harder, Bryan Bond & with feedback from a few others. </h6> 
+<H5>An unoffical project for ecobee by Jason Harder with help from Bryan Bond & Advice from many!. </h6> 
 
 HVAC Doctor is a program that will take reports from an ecobee thermostat (downloaded through your account at ecobee.com) and assess what could be happening with it (as we would)
 
