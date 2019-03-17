@@ -65,4 +65,7 @@ I settled on using Node.JS & express with pug. I have added some other notes for
 0.2  
 0.3
 
+   <h6>8. Brainstorms </h6> 
+
+In the longterm , this sort of program could be used to see problems that customers are having as they are having. It could be upgraded so the program can take known server outages into the mix and therefore ignore those when looking for restarts. 
 </ol>
