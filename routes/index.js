@@ -14,11 +14,7 @@ const storage = multer.diskStorage({
     cb(null,'uploads')
   },
   filename: function (req,file,cb) {
-<<<<<<< HEAD
-    cb(null,'uploadedFile'+ '.' + 'csv');
-=======
     cb(null,'HVACresultfile' + '.' + 'csv');
->>>>>>> 6bc00aefaea32c5e9aafc11fa28e9cb7a4a6eb5e
   }
 })
 
@@ -34,8 +30,6 @@ var upload = multer({
 })
 /* defined storage , so var upload could use it , defined var upload so router.post could use it.
 This is critical for defining scope*/
-<<<<<<< HEAD
-=======
 
 function fileFilter (req,file,cb) {
   if (file.mimetype != 'text/csv') {
@@ -43,7 +37,6 @@ function fileFilter (req,file,cb) {
     cb(null,false)
   }
 }
->>>>>>> 6bc00aefaea32c5e9aafc11fa28e9cb7a4a6eb5e
 
 router.post('/upload', upload.single('uploadedFile.csv'),(req,res,next) => {
   const file = req.file
