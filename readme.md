@@ -21,10 +21,10 @@ Temperature does not go up during heat calls , small restarts might be an issue 
 Erratic thermostat temperatures (especially climbing temperatures) 
       <li>Heat not stopping/starting (possible fused w/ no output) </li> 
 Compare temperatures with heat calls if they climb with no calls possible fuse.
-Compare heating calls with temp rise , if no climb somethigns wrong.       
+Compare heating calls with temp rise , if no climb something's wrong.       
 <li>Cooling not stopping (possible fused y/ no output) </li> 
 Compare temperatures with cooling calls if they climb with no calls possible fuse.
-Compare cooling calls with temp rise , if no climb somethigns wrong.
+Compare cooling calls with temp rise , if no climb something's wrong.
 
 </ol>
    <h6>2. Things you should confirm (based on results) </h6>
