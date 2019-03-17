@@ -20,7 +20,12 @@ Temperature does not go up during heat calls , small restarts might be an issue 
       <li>Code Blacks (probably cannot always be caught in reports) </li> 
 Erratic thermostat temperatures (especially climbing temperatures) 
       <li>Heat not stopping/starting (possible fused w/ no output) </li> 
-       <li>Cooling not stopping (possible fused y/ no output) </li> 
+Compare temperatures with heat calls if they climb with no calls possible fuse.
+Compare heating calls with temp rise , if no climb somethigns wrong.       
+<li>Cooling not stopping (possible fused y/ no output) </li> 
+Compare temperatures with cooling calls if they climb with no calls possible fuse.
+Compare cooling calls with temp rise , if no climb somethigns wrong.
+
 </ol>
    <h6>2. Things you should confirm (based on results) </h6>
  <ol>
