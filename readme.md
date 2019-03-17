@@ -19,7 +19,8 @@ Blank space where temperature reporting should be.
 Temperature does not go up during heat calls , small restarts might be an issue as well (check fan/heat stage runtimes and see if they're strange)
       <li>Code Blacks (probably cannot always be caught in reports) </li> 
 Erratic thermostat temperatures (especially climbing temperatures) 
-      <li> heat not stopping (possible fused w) </li> 
+      <li>Heat not stopping/starting (possible fused w/ no output) </li> 
+       <li>Cooling not stopping (possible fused y/ no output) </li> 
 </ol>
    <h6>2. Things you should confirm (based on results) </h6>
  <ol>
