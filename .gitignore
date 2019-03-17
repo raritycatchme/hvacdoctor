@@ -78,3 +78,9 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# CSVS due to the nature of the work
+*.csv
+
+#XLSX due to nature of work
+*.xlsx
