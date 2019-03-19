@@ -75,3 +75,15 @@ I settled on using Node.JS & express with pug. I have added some other notes for
 
 In the longterm , this sort of program could be used to see problems that customers are having as they are having. It could be upgraded so the program can take known server outages into the mix and therefore ignore those when looking for restarts. 
 </ol>
+
+  <h6> Additional feedback from Brian </h6>
+  
+  <li>Another good way to detect a wall draft is if there is a significant jump in Relative Humidity once the fan runs. Recall that the fan runtime column reports a value from 0-300 (based on seconds), so you might see a value of say 60 or 45 and then a significant humidity jump in the next 5 minute interval</li>
+  
+ <li>Heat not stopping can, in some cases, be caused by a W wire in the O/B terminal and a misconfigured thermostat. A seemingly little known fact is that the ecobee CONTINUES to energize O/B even at the end of a compressor call, so if W is in O/B, the temperature will continue to increase</li>
+ 
+ <li>Be sure to account for boiler anticipation if the ecobee is configured as a boiler (either mistakenly or correctly). We don't want to false flag the ecobee's boiler anticipator algorithm as a no heating issue. This might actually be something we want to check for, since configuring a heat-only furnace with no G wire requires manually selecting "G" (or else the ecobee automatically assumes "boiler") and impacts heating operation due to the aforementioned anticipator.</li>
+
+ <li>On a related note, one of the questions we could/should ask for boiler/furnace detection are "Do you have a radiator?"</li>
+ 
+ 
